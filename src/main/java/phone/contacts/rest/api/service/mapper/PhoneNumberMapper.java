@@ -1,8 +1,10 @@
 package phone.contacts.rest.api.service.mapper;
 
+import org.springframework.stereotype.Component;
 import phone.contacts.rest.api.model.PhoneNumber;
 import phone.contacts.rest.api.model.dto.response.PhoneNumberResponseDto;
 
+@Component
 public class PhoneNumberMapper implements ResponseDtoMapper
         <PhoneNumberResponseDto, PhoneNumber>{
     @Override

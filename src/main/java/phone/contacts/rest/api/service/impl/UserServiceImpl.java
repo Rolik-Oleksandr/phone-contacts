@@ -6,7 +6,6 @@ import phone.contacts.rest.api.service.UserService;
 import java.util.Optional;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-import phone.contacts.rest.api.service.UserService;
 
 @Service
 public class UserServiceImpl implements UserService {

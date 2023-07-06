@@ -1,7 +1,6 @@
 package phone.contacts.rest.api.service;
 
 import phone.contacts.rest.api.model.Contact;
-
 import java.util.Optional;
 
 public interface ContactService {
